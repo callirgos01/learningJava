@@ -24,5 +24,10 @@ public class Homework0
         System.out.println("IDE: " + ide);
         System.out.println("Secret code: " +
             Math.abs(ide.hashCode() % 10000));
+        
+        double weeks = 10;
+        double totalHours = 4 * 45;
+        double hoursPerWeekOfWOrk = (totalHours) / weeks; 
+        System.out.format(" total %.2f",hoursPerWeekOfWOrk);
     }
 }
